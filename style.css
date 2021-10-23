@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: monospace;
+}
+
+header{
+   background-image:linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(benjamin-suter-ojFOeGILFLc-unsplash.jpg);
+   
+   background-blend-mode:darken;
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+}
+
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000 ;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 1.30s ease;
+}
+ul li.active a{
+    background-color: #fff;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 67px;
+    height: auto;
+    position: absolute;
+    left: 12px;
+    top: 12px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 33%;
+    left: 48.5%;
+    transform: translate(-50%,+50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 75px;
+    
+}
+.p{
+    color: #fff;
+    font-size: 32px;
+    
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,+50%);
+}
+.button{
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    transform: translate(-50%,+50%);
+}
+.btn{
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.25s ease-in;
+
+
+}
+
+.btn:hover{
+    background-color: rgba(255, 8, 0, 0.61);
+    color: rgb(255, 255, 255) ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
